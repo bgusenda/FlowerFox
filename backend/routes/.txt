@@ -1,0 +1,67 @@
+Informações Básicas e Identificadores
+
+    id (Chave Primária)
+
+    isbn_10 (ISBN-10, único)
+
+    isbn_13 (ISBN-13, único) - Mais comum atualmente
+
+    title (Título principal)
+
+    subtitle (Subtítulo, opcional)
+
+    original_title (Título original, se for uma tradução)
+
+Relacionamentos (Chaves Estrangeiras)
+
+    publisher_id (ID da editora)
+
+    collection_id (ID da coleção/série, opcional - se o livro faz parte de uma série como "Harry Potter")
+
+    language_id (ID do idioma do livro, ex: português, inglês) - Pode ser uma tabela auxiliar
+
+    original_language_id (ID do idioma original, se for traduzido)
+
+Informações de Publicação
+
+    publication_date (Data de publicação)
+
+    edition (Edição, ex: "1ª edição")
+
+    edition_number (Número da edição, como inteiro - ex: 1, 2, 3)
+
+    printing_date (Data da impressão, opcional)
+
+    printing_number (Número da impressão, ex: "1ª reimpressão")
+
+Descrição e Conteúdo
+
+    synopsis (Sinopse ou descrição longa)
+
+    page_count (Número de páginas)
+
+    dimensions (Dimensões físicas, ex: "23x16x3 cm") - Ou campos separados: height, width, weight
+
+    weight_grams (Peso em gramas, opcional)
+
+Informações Comerciais
+
+    price (Preço de capa)
+
+    barcode (Código de barras)
+
+    stock_quantity (Quantidade em estoque)
+
+    status (Status: ativo, esgotado, pré-venda, etc.)
+
+Metadados e Classificação
+
+    age_group (Faixa etária, ex: adulto, infantil, juvenil)
+
+    tags ou keywords (Palavras-chave, como array ou tabela separada)
+
+Datas de Controle
+
+    created_at (Data de criação do registro)
+
+    updated_at (Data da última atualização)

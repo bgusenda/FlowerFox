@@ -1,0 +1,27 @@
+{
+  "_id": {
+    "$oid": "68be08b37b89537a180e0336"
+  },
+  "content": "eaeaeaeaeaeaeaeaeaeaeaea",
+  "starRating": 4.5,
+  "reviewType": "book",
+  "foreignKeys": {
+    "userId": "68b8f6da16b763a7481cb133",
+    "bookId": "68be02e77b89537a180e032c",
+    "publisherId": null,
+    "storeId": null
+  },
+  "helpfulCount": 20,
+  "unhelpfulCount": 4,
+  "response": {
+    "content": null,
+    "respondentId": null,
+    "respondentType": null,
+    "createdAt": {
+      "$date": null
+    }
+  },
+  "createdAt": {
+    "$date": "2025-07-03T03:00:00.000Z"
+  }
+}
