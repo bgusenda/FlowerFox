@@ -8,12 +8,14 @@ const cors = require("cors");
 
 //routes import
 const userRoutes = require("./routes/userRoutes");
+const publisherRoutes = require("./routes/publisherRoutes");
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 app.use("/api", userRoutes);
+app.use("/api", publisherRoutes);
 
 app.listen(process.env.PORT, () => {
     connect.connectToServer();

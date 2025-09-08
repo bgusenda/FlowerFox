@@ -3,7 +3,8 @@ declare global {
     interface ProcessEnv {
       ATLAS_URI: string;
       JWT_SECRETKEY?: string;
-      PORT?: string;
+      PORT?: int;
+      SALT_ROUNDS?: int;
     }
   }
 }
