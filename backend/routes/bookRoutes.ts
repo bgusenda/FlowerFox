@@ -93,6 +93,7 @@ bookRoutes.post("/books", async (req: Request, res: Response) => {
             printingNumber: publicInformation?.printingNumber || ""
         },
         content: {
+            coverURL: content?.coverURL || "",
             synopsis: content?.synopsis || "",
             pageCount: content?.pageCount || 0,
             dimensions: {
@@ -158,6 +159,7 @@ bookRoutes.post("/books/:id", async (req: Request, res: Response) => {
             printingNumber: publicInformation?.printingNumber || ""
         },
         content: {
+            coverURL: content?.coverURL || "",
             synopsis: content?.synopsis || "",
             pageCount: content?.pageCount || 0,
             dimensions: {

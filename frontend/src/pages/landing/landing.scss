@@ -1,0 +1,40 @@
+.landingPageDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rebeccapurple;
+
+    min-height: 400vh;
+
+    section {
+        margin-top: 120px;
+        border: 1px solid yellow;
+
+        min-width: 50vw;
+    }
+}
+
+.tempNavbarDiv {
+    position: fixed;
+    top: 20px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: plum;
+    width: 900px;
+
+    .row {
+        display: inherit;
+        justify-content: space-evenly;
+    }
+
+    .navItem {
+        border: 1px solid red;
+    }
+}
+
+.dropdown {
+    overflow: hidden;
+    height: 0;
+}

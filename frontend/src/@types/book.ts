@@ -16,6 +16,7 @@ export interface Book {
     printingNumber: string;
   };
   content: {
+    coverURL: string;
     synopsis: string;
     pageCount: number;
     dimensions: { height: number | null; width: number | null; weight: number | null };
